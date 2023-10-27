@@ -1,0 +1,33 @@
+# Конфиг EXPRESS
+express_active: yes
+express_url_server: https://sample.ru/
+express_id_chat: sample
+express_id_bot: sample
+express_key_bot: sample
+
+# Конфиг почты
+smtp_active: no
+smtp_user: sample@sample.ru
+smtp_passwd: sample
+smtp_server: sample.ru
+smtp_emails_list: sample@sample.ru
+
+# Конфиг для журнала windows
+event_active: no
+
+# Время в минутах, раз в какое время делать проверку очередей
+timer: 2
+
+# Конфиг боксов
+CONFIG_BOX:
+
+  # sample ======================================
+  SAMPLE-SERVER-BOX-1:
+    path: \\SAMPLE-SERVER\e$\BOX1\
+    queue_warn: 500
+    queue_crit: 1000
+
+  SAMPLE-SERVER-BOX-2:
+    path: \\SAMPLE-SERVER\e$\BOX2\
+    queue_warn: 0
+    queue_crit: 99999

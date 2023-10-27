@@ -1,0 +1,6 @@
+apscheduler
+requests
+hmac
+hashlib
+secure-smtplib
+PyYAML
